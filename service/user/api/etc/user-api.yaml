@@ -1,0 +1,19 @@
+Name: user-api
+Host: 0.0.0.0
+Port: 10000
+
+Mysql:
+  DataSource: root:123456@tcp(0.0.0.0:4406)/chat_user?charset=utf8mb4&parseTime=true&loc=Asia%2FShanghai
+
+Log:
+  Encoding: plain
+
+Auth:
+  AccessSecret: a1b2c3d4e5f6
+  AccessExpire: 86400
+
+Redis:
+  Host: 127.0.0.1:6379
+  Type: node
+  Pass:
+
