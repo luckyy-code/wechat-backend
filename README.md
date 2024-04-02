@@ -6,4 +6,4 @@
 
 
 # 流程图
-![](imgs/QQ截图20230206141923.png)
+![](https://telegraph-image-d8w.pages.dev/file/52bd65be2e8f058c65747.png)
