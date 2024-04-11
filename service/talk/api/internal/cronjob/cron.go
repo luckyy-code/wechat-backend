@@ -12,11 +12,6 @@ import (
 	"wechat-backend/service/talk/model"
 )
 
-/*
-* @Author: chuang
-* @Date:   2023/2/4 14:22
- */
-
 func StartCronJob(svc svc.ServiceContext) {
 	timezone, _ := time.LoadLocation("Asia/Shanghai")
 	cron := gocron.NewScheduler(timezone)

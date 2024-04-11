@@ -7,11 +7,6 @@ import (
 	"log"
 )
 
-/*
-* @Author: chuang
-* @Date:   2023/2/2 21:08
- */
-
 type ElasticClient struct {
 	Client *elasticsearch.Client
 	Ctx    context.Context
@@ -33,7 +28,7 @@ func NewElasticClient(config elasticsearch.Config, index string) *ElasticClient 
 	return elastic
 }
 
-//Get cluster info
+// Get cluster info
 func (elastic *ElasticClient) getClusterInfo() {
 	// Check response status
 	res, err := elastic.Client.Info()

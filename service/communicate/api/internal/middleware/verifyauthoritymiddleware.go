@@ -7,11 +7,6 @@ import (
 	"wechat-backend/service/communicate/api/internal/config"
 )
 
-/*
-* @Author: chuang
-* @Date:   2023/1/11 11:03
- */
-
 type VerifyAuthorityMiddleware struct {
 	config config.Config
 }
